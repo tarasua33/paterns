@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn {
+    border: white 5px solid;
+    display: inline-block;
+    padding: 20px;
+}
+
+.btn-default {
+    background-color: darkgrey;
+    color: yellowgreen;
+    font-size: 15px;
+}
+
+.btn-pink {
+    background-color: purple;
+    color: yellow;
+    font-size: 15px;
+}
+
+.btn-green {
+    background-color: green;
+    color: tomato;
+    font-size: 20px;
+}
+
+.panel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 30px;
+    text-align: justify;
+    font-size: 0;
+}
+
+.panel:after {
+    font-size: 0;
+    display: inline-block;
+    content: "";
+    font-size: 0;
+    width: 100%;
+    height: 0;
+}
+
+.panel-default {
+    background-color: #CDCDCD;
+}
+
+.panel-green {
+    background-color: yellowgreen;
+}
+
+.panel-pink {
+    background-color: pink;
+}
+
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+}
+
+.title-default {
+    background-color: #CDCDCD;
+}
+
+.title-green {
+    background-color: yellowgreen;
+}
+
+.title-pink {
+    background-color: pink;
+}
